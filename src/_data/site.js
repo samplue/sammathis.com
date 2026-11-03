@@ -8,7 +8,7 @@ export default {
   // assets/js/mail.js joins it in the browser.
   mailUser: "hello",
   mailDomain: "sammathis.com",
-  mastodon: "https://postchat.io/@samplue",
+  mastodon: "https://mastodon.social/@samplue",
   year: new Date().getFullYear(),
   // The github.io preview lives under a path prefix and must not be indexed.
   preview: Boolean(process.env.PATH_PREFIX && process.env.PATH_PREFIX !== "/"),
