@@ -113,6 +113,39 @@ img { max-width: 100%; display: block; }
   color: var(--text-strong);
   text-shadow: 0 0 2px rgba(255, 120, 80, 0.35), 0 0 14px rgba(255, 90, 40, 0.16);
 }
+/* Hero intro: RGB channels converge onto the headline, tracking markers lock onto its corners */
+.hero__title { position: relative; animation: rgb-converge 1.3s 0.3s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes rgb-converge {
+  0% { opacity: 0; text-shadow: -14px 0 rgba(255, 0, 60, 0.8), 14px 0 rgba(0, 200, 255, 0.8); }
+  30% { opacity: 1; }
+  100% { text-shadow: 0 0 2px rgba(255, 120, 80, 0.35), 0 0 14px rgba(255, 90, 40, 0.16); }
+}
+.hero__dot { color: var(--accent); text-shadow: 0 0 12px rgba(255, 106, 31, 0.6); animation: dot-blink 1.1s 1.6s steps(1) infinite; }
+@keyframes dot-blink { 50% { opacity: 0.15; } }
+.trk {
+  position: absolute; width: 14px; height: 14px; pointer-events: none; opacity: 0.25;
+  animation: trk-lock 1.4s cubic-bezier(.2,.8,.2,1) both, trk-drift 5s 1.9s ease-in-out infinite;
+}
+.trk::before, .trk::after { content: ""; position: absolute; background: var(--accent); }
+.trk::before { left: 6px; top: 0; width: 2px; height: 14px; }
+.trk::after { top: 6px; left: 0; width: 14px; height: 2px; }
+.trk span {
+  position: absolute; left: 18px; top: -2px; color: var(--accent); text-shadow: none;
+  font: 500 10px/1 ui-monospace, Menlo, monospace; letter-spacing: 0.04em;
+}
+.trk--tl { left: -18px; top: -14px; --dx: -30px; --dy: -30px; animation-delay: 0.3s, 1.9s; }
+.trk--tr { left: calc(100% + 4px); top: -14px; --dx: 30px; --dy: -30px; animation-delay: 0.42s, 1.9s; }
+.trk--bl { left: -18px; top: 100%; --dx: -30px; --dy: 30px; animation-delay: 0.54s, 1.9s; }
+.trk--br { left: calc(100% + 4px); top: 100%; --dx: 30px; --dy: 30px; animation-delay: 0.66s, 1.9s; }
+@keyframes trk-lock {
+  0% { opacity: 0; transform: scale(2.5) translate(var(--dx), var(--dy)); }
+  60% { opacity: 0.9; }
+  100% { opacity: 0.25; transform: none; }
+}
+@keyframes trk-drift { 0%, 100% { translate: 0 0; } 50% { translate: 1px -1px; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero__title, .hero__dot, .trk { animation: none; }
+}
 .hero__lead { margin: 0; font-size: clamp(17px, 2.2vw, 20px); line-height: 1.6; color: var(--text-soft); max-width: 640px; }
 
 /* Credits grid */
