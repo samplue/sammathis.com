@@ -16,7 +16,7 @@ layout: base.njk
     <li class="credit">
       {%- if p.link %}<a class="credit__link" href="{{ p.link }}" target="_blank" rel="noopener">{% else %}<div class="credit__link">{% endif %}
         <div class="tile{% if not p.poster %} tile--empty{% endif %}">
-          {%- if p.poster %}{% poster p.poster, p.title + " poster" %}{% else %}<span class="tile__title" aria-hidden="true">{{ p.title }}</span>{% endif %}
+          {%- if p.poster %}{% poster p.poster, p.title + " poster" %}{% else %}<span class="tile__card" aria-hidden="true"><span class="tile__client">{{ p.client }}</span><span class="tile__title">{{ p.title }}</span><span class="tile__year">{{ p.year }}</span></span>{% endif %}
           {%- if p.status %}<span class="badge">In post</span>{% endif %}
         </div>
         <div class="credit__meta">
