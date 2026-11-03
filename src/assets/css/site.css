@@ -122,7 +122,7 @@ img { max-width: 100%; display: block; }
 .hero__title { animation-delay: 0.45s; }
 .hero__lead { animation-delay: 0.6s; }
 @keyframes rgb-converge {
-  0% { opacity: 0; text-shadow: -14px 0 rgba(255, 0, 60, 0.8), 14px 0 rgba(0, 200, 255, 0.8); }
+  0% { opacity: 0; text-shadow: -14px 0 rgba(255, 106, 31, 0.85), 14px 0 rgba(255, 196, 120, 0.6); }
   25% { opacity: 1; }
   100% { text-shadow: var(--glow); }
 }
