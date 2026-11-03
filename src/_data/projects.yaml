@@ -5,6 +5,7 @@ projects:
     client: Netflix
     year: "2025–26"
     role: Assistant Editor
+    poster: /posters/01-mein-bester-freund.jpg
   - title: "Meiré & Meiré"
     client: Advertising
     year: "2025–26"
@@ -15,6 +16,7 @@ projects:
     year: "2025"
     role: Additional VFX Editor
     status: in post-production
+    poster: /posters/03-the-mummy.jpg
   - title: "Harbor Picture Company"
     client: Advertising
     year: "2024–25"
@@ -30,83 +32,100 @@ projects:
     year: "2024"
     role: Assistant Editor
     status: in post-production
+    poster: /posters/06-drei-fragezeichen-toteninsel.jpg
   - title: "Die drei ??? und der Karpatenhund"
     client: Sony Pictures
     year: "2024"
     role: Assistant Editor
     link: https://www.sonypictures.de/filme/die-drei-fragezeichen-und-der-karpatenhund
+    poster: /posters/07-drei-fragezeichen-karpatenhund.jpg
   - title: "Hameln – Die Rückkehr des Rattenfängers"
     client: ZDFneo
     year: "2023/24"
     role: Assistant Editor
     link: https://www.zdf.de/serien/hameln
+    poster: /posters/08-hameln.jpg
   - title: "Spieleabend"
     client: Netflix
     year: "2023"
     role: Assistant Editor
     link: https://www.netflix.com/search?q=spieleabend&jbv=81663095
+    poster: /posters/09-spieleabend.jpg
   - title: "Zeit Verbrechen – Gelbe Nacht"
     client: RTL+
     year: "2023"
     role: Assistant Editor
     link: https://plus.rtl.de/video-tv/serien/zeit-verbrechen-1010105/staffel-1-1010106/episode-1-dezember-1010108
+    poster: /posters/10-zeit-verbrechen.jpg
   - title: "60 Minutes"
     client: Netflix
     year: "2022/23"
     role: Assistant & VFX Editor
     link: https://www.netflix.com/de/title/81486233
+    poster: /posters/11-60-minuten.jpg
   - title: "Ein Fest fürs Leben"
     client: Warner Bros. / UFA Fiction
     year: "2022/23"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt22693996/
+    poster: /posters/12-ein-fest-fuers-leben.jpg
   - title: "Blood & Gold"
     client: Netflix
     year: "2022"
     role: Assistant & VFX Editor
     link: https://www.netflix.com/de/title/81557402
+    poster: /posters/13-blood-and-gold.jpg
   - title: "Faraway"
     client: Netflix
     year: "2021/22"
     role: Assistant Editor
     link: https://www.netflix.com/de/title/81286006
+    poster: /posters/14-faraway.jpg
   - title: "Die drei ??? – Erbe des Drachen"
     client: Sony Pictures
     year: "2021/22"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt15512578/
+    poster: /posters/15-drei-fragezeichen-erbe-des-drachen.jpg
   - title: "One Night Off"
     client: Amazon Studios
     year: "2021"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt14558102/
+    poster: /posters/16-one-night-off.jpg
   - title: "Blood Red Sky"
     client: Netflix
     year: "2020/21"
     role: Assistant & VFX Editor
     link: https://www.imdb.com/title/tt6402468/
+    poster: /posters/17-blood-red-sky.jpg
   - title: "Tina Mobil"
     client: rbb
     year: "2020"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt15475734/
+    poster: /posters/18-tina-mobil.jpg
   - title: "Lang lebe die Königin"
     client: ARD
     year: "2019"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt10140152/
+    poster: /posters/19-lang-lebe-die-koenigin.jpg
   - title: "Der König von Köln"
     client: WDR
     year: "2018"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt9239818/
+    poster: /posters/20-der-koenig-von-koeln.jpg
   - title: "Unterwerfung"
     client: rbb
     year: "2017"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt7674694/
+    poster: /posters/21-unterwerfung.jpg
   - title: "Zarah"
     client: ZDF
     year: "2017"
     role: Assistant Editor
     link: https://www.imdb.com/title/tt6756488/
+    poster: /posters/22-zarah.jpg
