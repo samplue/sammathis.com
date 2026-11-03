@@ -36,9 +36,10 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { background: #161617; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { background: #121213; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
+  position: relative;
   min-height: 100vh;
   background: var(--bg);
   color: var(--text);
@@ -46,18 +47,18 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-/* Film grain over the whole page: a small tileable, contrast-boosted noise texture (dark and light specks,
+/* Film grain over the whole page, scrolling with the content: a small tileable, contrast-boosted noise texture (dark and light specks,
    so it reads on the dark ground and on light text alike). Normal blending only: mix-blend-mode on a
    fixed layer composites against a wrong backdrop in iOS Safari and greys out the whole page.
-   The grain lifts the average page tone to about #161617; html and theme-color use that tone so
+   The grain lifts the average page tone to about #121213; html and theme-color use that tone so
    Safari's bars (tinted from the page colour) match the grained page instead of looking darker. */
 body::after {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   z-index: 100;
   pointer-events: none;
-  opacity: 0.12;
+  opacity: 0.08;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 220px 220px;
 }
