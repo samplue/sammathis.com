@@ -16,6 +16,7 @@ projects:
     client: Netflix
     year: "2025–26"
     role: Assistant Editor
+    link: https://www.imdb.com/title/tt38662472/
     poster: /posters/01-mein-bester-freund.jpg
   - title: "Meiré & Meiré"
     client: Advertising
@@ -26,6 +27,7 @@ projects:
     client: Warner Bros.
     year: "2025"
     role: Additional VFX Editor
+    link: https://www.imdb.com/title/tt32612507/
     poster: /posters/03-the-mummy.jpg
   - title: "Harbor Picture Company"
     client: Advertising
@@ -42,36 +44,37 @@ projects:
     client: Sony Pictures
     year: "2024"
     role: Assistant Editor
+    link: https://www.imdb.com/title/tt38908928/
     poster: /posters/06-drei-fragezeichen-toteninsel.jpg
   - title: "Die drei ??? und der Karpatenhund"
     client: Sony Pictures
     year: "2024"
     role: Assistant Editor
-    link: https://www.sonypictures.de/filme/die-drei-fragezeichen-und-der-karpatenhund
+    link: https://www.imdb.com/title/tt31412707/
     poster: /posters/07-drei-fragezeichen-karpatenhund.jpg
   - title: "Hameln – Die Rückkehr des Rattenfängers"
     client: ZDFneo
     year: "2023/24"
     role: Assistant Editor
-    link: https://www.zdf.de/serien/hameln
+    link: https://www.imdb.com/title/tt29267609/
     poster: /posters/08-hameln.jpg
   - title: "Spieleabend"
     client: Netflix
     year: "2023"
     role: Assistant Editor
-    link: https://www.netflix.com/search?q=spieleabend&jbv=81663095
+    link: https://www.imdb.com/title/tt28301898/
     poster: /posters/09-spieleabend.jpg
   - title: "Zeit Verbrechen – Gelbe Nacht"
     client: RTL+
     year: "2023"
     role: Assistant Editor
-    link: https://plus.rtl.de/video-tv/serien/zeit-verbrechen-1010105/staffel-1-1010106/episode-1-dezember-1010108
+    link: https://www.imdb.com/title/tt26773573/
     poster: /posters/10-zeit-verbrechen.jpg
   - title: "60 Minutes"
     client: Netflix
     year: "2022/23"
     role: Assistant & VFX Editor
-    link: https://www.netflix.com/de/title/81486233
+    link: https://www.imdb.com/title/tt29538571/
     poster: /posters/11-60-minuten.jpg
   - title: "Ein Fest fürs Leben"
     client: Warner Bros. / UFA Fiction
@@ -83,13 +86,13 @@ projects:
     client: Netflix
     year: "2022"
     role: Assistant & VFX Editor
-    link: https://www.netflix.com/de/title/81557402
+    link: https://www.imdb.com/title/tt18073328/
     poster: /posters/13-blood-and-gold.jpg
   - title: "Faraway"
     client: Netflix
     year: "2021/22"
     role: Assistant Editor
-    link: https://www.netflix.com/de/title/81286006
+    link: https://www.imdb.com/title/tt18747542/
     poster: /posters/14-faraway.jpg
   - title: "Die drei ??? – Erbe des Drachen"
     client: Sony Pictures
