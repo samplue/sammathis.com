@@ -1,6 +1,17 @@
 # All credits shown on the site, newest first. Edited through Pages CMS
 # (app.pagescms.org) or directly here. Order in this list = order on the site.
 projects:
+  - title: "Das verrückte Labyrinth"
+    client: Constantin Film
+    year: "2026–27"
+    role: Assistant & VFX Editor
+    status: in post-production
+    link: https://www.imdb.com/title/tt34378263/
+  - title: "Wild Things"
+    client: Apple TV
+    year: "2026"
+    role: Assistant Editor
+    link: https://www.imdb.com/title/tt23099476/
   - title: "Mein bester Freund, seine Freundin & Ich (WT)"
     client: Netflix
     year: "2025–26"
@@ -15,23 +26,22 @@ projects:
     client: Warner Bros.
     year: "2025"
     role: Additional VFX Editor
-    status: in post-production
     poster: /posters/03-the-mummy.jpg
   - title: "Harbor Picture Company"
     client: Advertising
     year: "2024–25"
     role: Assistant Editor
     link: https://harborpicturecompany.com/advertising/work/
-  - title: "TBA"
+  - title: "Eat Pray Bark"
     client: Netflix
     year: "2024"
     role: Assistant & VFX Editor
-    status: in post-production
+    link: https://www.imdb.com/title/tt39465484/
+    poster: /posters/05-eat-pray-bark.jpg
   - title: "Die drei ??? – Toteninsel"
     client: Sony Pictures
     year: "2024"
     role: Assistant Editor
-    status: in post-production
     poster: /posters/06-drei-fragezeichen-toteninsel.jpg
   - title: "Die drei ??? und der Karpatenhund"
     client: Sony Pictures

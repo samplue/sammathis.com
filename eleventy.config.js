@@ -12,6 +12,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
+  // "Assistant & VFX Editor" -> line break after "&" on small screens only
+  eleventyConfig.addFilter("ampBreak", (text) =>
+    String(text ?? "")
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/ &amp; /g, ' &amp;<br class="br-mobile"> '),
+  );
+
   eleventyConfig.addPassthroughCopy({ "src/assets/css": "assets/css" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
   eleventyConfig.addPassthroughCopy({ "src/assets/img": "assets/img" });

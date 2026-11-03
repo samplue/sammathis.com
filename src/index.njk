@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <section class="hero" id="top">
   <div class="hero__inner">
-    <p class="eyebrow">Assistant &amp; VFX Editor</p>
+    <p class="eyebrow">Assistant &amp;<br class="br-mobile"> VFX Editor</p>
     <h1 class="hero__title">Hi, I'm Sam.</h1>
     <p class="hero__lead">I work on feature films, series and commercials, keeping media, VFX and turnovers in order from dailies to delivery.</p>
   </div>
@@ -20,7 +20,7 @@ layout: base.njk
           {%- if p.status %}<span class="badge">In post</span>{% endif %}
         </div>
         <div class="credit__meta">
-          <span class="credit__role">{{ p.role }}</span>
+          <span class="credit__role">{{ p.role | ampBreak | safe }}</span>
           <span class="credit__title">{{ p.title }}</span>
           <span class="credit__info">{{ p.client }} · {{ p.year }}{% if p.status %}<span class="visually-hidden"> · {{ p.status }}</span>{% endif %}</span>
         </div>
