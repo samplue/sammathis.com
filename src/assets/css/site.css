@@ -120,7 +120,10 @@ a.credit__link:hover .credit__title { color: #FFFFFF; }
   position: relative; aspect-ratio: 2 / 3; border-radius: 6px; overflow: hidden;
   border: 1px solid var(--tile-border); background: #18181A;
   display: flex; align-items: center; justify-content: center;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  a.credit__link:hover .tile { transform: scale(1.04); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.55); }
 }
 .grid > li:nth-child(4n+2) .tile--empty { background: #1C1A18; }
 .grid > li:nth-child(4n+3) .tile--empty { background: #17191A; }
