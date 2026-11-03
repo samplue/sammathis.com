@@ -201,8 +201,10 @@ a.credit__link:hover .credit__title { color: #FFFFFF; }
 .contact {
   border-top: 1px solid var(--line); max-width: 1100px; margin: 0 auto; padding: 110px var(--gutter);
   text-align: center; display: flex; flex-direction: column; align-items: center; gap: 22px;
+  background: radial-gradient(ellipse 50% 55% at 50% 50%, rgba(255, 106, 31, 0.06), rgba(255, 106, 31, 0) 70%);
 }
-.contact__title { margin: 0; font-weight: 600; font-size: clamp(38px, 6vw, 56px); line-height: 1.05; letter-spacing: -0.02em; color: var(--text-strong); }
+.contact__title { margin: 0; font-weight: 600; font-size: clamp(38px, 6vw, 56px); line-height: 1.05; letter-spacing: -0.02em; color: var(--text-strong);
+  text-shadow: 0 0 2px rgba(255, 120, 80, 0.35), 0 0 14px rgba(255, 90, 40, 0.16); }
 .contact__lead { margin: 0; font-size: 18px; line-height: 1.6; color: var(--text-muted); max-width: 540px; }
 .contact__fallback { margin: 0; color: var(--text-soft); }
 .button {
