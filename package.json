@@ -1,0 +1,18 @@
+{
+  "name": "sammathis.com",
+  "version": "1.0.0",
+  "description": "Portfolio site of Sam, assistant and VFX editor",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@fontsource/archivo": "^5.3.0",
+    "js-yaml": "^4.3.2"
+  },
+  "private": true
+}

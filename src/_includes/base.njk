@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ lang or 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if pageTitle %}{{ pageTitle }} · Sam{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ pageTitle or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#0B0B0C">
+{% if site.preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/archivo-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/mail.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="/" aria-label="Sam, home">SP<span class="accent">.</span></a>
+  <nav class="nav" aria-label="Main">
+    <a href="/#credits">Credits</a>
+    <a href="/#contact">Contact</a>
+  </nav>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="site-footer">
+  <span>© {{ site.year }} Sam</span>
+  <a href="/impressum/">Impressum</a>
+  <a href="/datenschutz/">Datenschutz</a>
+  <a href="{{ site.mastodon }}" rel="me noopener">Mastodon</a>
+</footer>
+</body>
+</html>

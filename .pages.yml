@@ -1,0 +1,53 @@
+# Pages CMS (https://app.pagescms.org) – edit the credits list in the browser.
+media:
+  input: src/posters
+  output: /posters
+
+content:
+  - name: projects
+    label: Credits
+    type: file
+    path: src/_data/projects.yaml
+    format: yaml
+    fields:
+      - name: projects
+        label: Projects (newest first)
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: client
+            label: Client / network
+            type: string
+            required: true
+          - name: year
+            label: Year
+            type: string
+            required: true
+            description: 'Free text, e.g. "2025" or "2025–26"'
+          - name: role
+            label: Role
+            type: select
+            required: true
+            options:
+              values:
+                - Assistant Editor
+                - Assistant & VFX Editor
+                - VFX Editor
+                - Additional VFX Editor
+                - Editor
+          - name: status
+            label: Status
+            type: select
+            options:
+              values:
+                - in post-production
+          - name: link
+            label: Link (optional)
+            type: string
+          - name: poster
+            label: Poster (optional, portrait 2:3)
+            type: image
